@@ -1,0 +1,173 @@
+body{
+    background-color: #f5f5f5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Handlee', cursive;
+}
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header{
+    background-color: #EDEBE7;
+    padding: 20px 0;
+    border-bottom: 2px solid #cac8c2;
+}
+
+.logo{
+    color: #FD05A1;
+}
+
+.menu{
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    alt: 50%;
+}
+
+.menu a{
+    color: #FD05A1;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.menu a:hover{
+    color: #a50068;
+}
+
+body{
+    font-family: 'Handlee', cursive;
+    background-image: linear-gradient(to rigth, rgb(245, 152, 214), rgb(17, 54, 71));
+}
+.box{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(233, 183, 225, 0.884);
+    padding: 30px;
+    border-radius: 30px;
+    width: 50%;
+    height: 40%;
+}
+fieldest{
+    border: 2px solid #360227;
+}
+h3{
+    border: 3px solid rgb(82, 1, 63);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 22, 205);
+    border-radius: 10px;
+    width: 35%;
+}
+.inputBox{
+    position: relative;
+}
+.inputBox{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 22, 205);
+    outline: none;
+    color: rgb(173, 0, 101);
+    font-size: 10px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(117, 1, 92);
+
+}
+#submit{
+    background-image: linear-gradient(to rgb(68, 3, 3), black);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: rgb(95, 4, 4);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to rgb(68, 3, 3), black);
+}
+.box2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(233, 183, 225, 0.884);
+    padding: 45px;
+    border-radius: 30px;
+    width: 50%;
+    height: 60%;
+}
+fieldest{
+    border: 2px solid #360227;
+}
+h3{
+    border: 3px solid rgb(82, 1, 63);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 22, 205);
+    border-radius: 10px;
+    width: 35%;
+}
+.inputBox{
+    position: relative;
+}
+.inputBox{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 22, 205);
+    outline: none;
+    color: rgb(173, 0, 101);
+    font-size: 10px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(117, 1, 92);
+
+}
+.button{
+    border: 3px solid rgb(82, 1, 63);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 22, 205);
+    border-radius: 10px;
+    width: 35%;
+    color: rgb(82, 1, 63);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #ca82b6;
+}
